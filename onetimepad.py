@@ -40,6 +40,6 @@ class OneTimePad():
 
 
 
-deneme = OneTimePad()
-print(deneme.encrypt("OGUZ"))
-print(deneme.decrypt("00110010001110100010110111110010","01111101011111010111100010101000"))
+otp = OneTimePad()
+print(otp.encrypt("OGUZ"))
+print(otp.decrypt("00110010001110100010110111110010","01111101011111010111100010101000"))
