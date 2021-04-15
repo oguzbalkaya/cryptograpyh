@@ -43,8 +43,8 @@ class Vigenere():
 
 
 try:
-    deneme = Vigenere()
-    print(deneme.encrypt("ATTACKATDAWN", "LEMON"))
-    print(deneme.decrypt("LXFOPVEFRNHR", "LEMON"))
+    vig = Vigenere()
+    print(vig.encrypt("ATTACKATDAWN", "LEMON"))
+    print(vig.decrypt("LXFOPVEFRNHR", "LEMON"))
 except ValueError:
     print("error")
