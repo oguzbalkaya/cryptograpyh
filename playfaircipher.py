@@ -60,6 +60,6 @@ class PlayfairCipher():
         return text, key, decrypted_text
 
 
-deneme = PlayfairCipher()
-print(deneme.encrypt("PLAYFAIREXAMPLE", "HIDETHEGOLDINTHETREESTUMP"))
-print(deneme.decryption("PLAYFAIREXAMPLE", "BMODZBXDNABEKUDMUIXMMOUVIF"))
+pfc = PlayfairCipher()
+print(pfc.encrypt("PLAYFAIREXAMPLE", "HIDETHEGOLDINTHETREESTUMP"))
+print(pfc.decryption("PLAYFAIREXAMPLE", "BMODZBXDNABEKUDMUIXMMOUVIF"))
